@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-18T04:52:19.399Z",
+        "line": 3,
+        "name": "Change background color to sky blue",
+        "description": "",
+        "id": "change-background-color-to-sky-blue;change-background-color-to-sky-blue",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat stepDefinition.StepDefinition.set_SkyBlue_Background_button_exists(StepDefinition.java:34)\r\n\tat ✽.Set SkyBlue Background button exists(file:///C:/Users/amahe/Desktop/QA%20PowerPoint/cucumber_exam/src/test/research/features/colors.feature:4)\r\n",
+              "duration": 2000300,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "stepDefinition.StepDefinition.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I click on the button",
+            "match": {
+              "location": "stepDefinition.StepDefinition.i_click_on_the_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "stepDefinition.StepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Change Background Color to Sky Blue",
+    "description": "",
+    "id": "change-background-color-to-sky-blue",
+    "keyword": "Feature",
+    "uri": "file:src/test/research/features/colors.feature",
+    "tags": []
+  }
+]
